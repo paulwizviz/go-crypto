@@ -5,7 +5,7 @@ A cryptographic key is a string of bits used by a cryptographic algorithm to tra
 
 ## RSA
 
-Education:
+Concepts:
 
 * [The Mathematics of RSA and the Diffie-Hellman Protocol](https://www.youtube.com/watch?v=xmwxDHX6xUc)
 
@@ -15,4 +15,10 @@ Working examples:
 
 ## Elliptic Curve
 
+Concepts:
+
 * [Elliptic Curves - Computerphile](https://www.youtube.com/watch?v=NF1pwjL9-DE)
+
+Working examples:
+
+* [Generating Elliptic curve keys using Go standard library](../examples/ec/ec_test.go)
