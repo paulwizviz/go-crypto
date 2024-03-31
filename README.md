@@ -4,9 +4,18 @@ Welcome to my project discussing topics related to cryptography.
 
 ## Topics
 
+* [Asymmetric cryptography](./docs/asymetic.md)
 * [Modular mathematics](./docs/math.md)
-* [Cryptographic keys](./docs/keys.md)
-* [Encryption](./docs/encryption.md)
+* [Symmetric cryptography](./docs/symmetric.md)
+
+## References
+
+* A cryptographic key is a string of bits used by a cryptographic algorithm to transform plain text into cipher text or vice versa (Source: [Professor Messer](https://www.youtube.com/watch?v=5c_Yed71tvU))
+* Encryption is the process of transforming plaintext to cypher text (Source: [Professor Messor](https://www.youtube.com/watch?v=A6HNd1EGfIc)).
+* [Symmetric and Asymmetric Cryptography - SY0-601 CompTIA Security+ : 2.8](https://www.youtube.com/watch?v=6uRI4o5EUkI)
+* Stream and block ciphers
+    * [Streams and block ciphers](https://www.youtube.com/watch?v=7J2XbZNNF4A)
+    * [Block Cipher Modes - CompTIA Security+ SY0-501 - 6.2](https://www.youtube.com/watch?v=6rE-KlhBlq4)
 
 ## Disclaimer
 
