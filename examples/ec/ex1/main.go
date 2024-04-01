@@ -8,7 +8,8 @@ import (
 )
 
 func main() {
-	privKey, _ := ecdsa.GenerateKey(elliptic.P224(), rand.Reader)
+	curve := elliptic.P224() //see http://golang.org/pkg/crypto/elliptic/#P256
+	privKey, _ := ecdsa.GenerateKey(curve, rand.Reader)
 	fmt.Printf("Type: %T Value: %v\n", privKey, privKey)
 
 	pubKey := privKey.PublicKey
