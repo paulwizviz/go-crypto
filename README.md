@@ -1,24 +1,12 @@
 # Overview
 
-Welcome to my project discussing topics related to cryptography.
+This project discusses topics related to cryptography.
 
 ## Topics
 
-* [Elliptic Curve](#elliptic-curve)
-* [Advanced Eyncryption Standard](#advanced-eyncryption-standard-aes)
-* [Rivest-Shamir-Adleman (RSA)](#rivest-shamir-adleman-rsa)
-
-## Elliptic Curve
-
-* [Working examples](./cmd/ec)
-
-## Advanced Eyncryption Standard (AES)
-
-* [Working examples](./cmd/aes/)
-
-## Rivest-Shamir-Adleman (RSA)
-
-* [Working examples](./cmd/rsa/)
+* [Advanced Eyncryption Standard](./aes/doc.md)
+* [Elliptic Curve](./ec/doc.md)
+* [Rivest-Shamir-Adleman (RSA)](./rsa/doc.md)
 
 ## Disclaimer
 
