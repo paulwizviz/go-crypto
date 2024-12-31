@@ -1,13 +1,34 @@
-package stdlib
+package main
 
 import (
 	"crypto/ecdsa"
 	"crypto/elliptic"
 	"crypto/md5"
 	"crypto/rand"
+	"fmt"
 	"io"
+	"log"
 	"math/big"
 )
+
+func main() {
+
+	privkey, pubkey, err := generateKey()
+	if err != nil {
+		log.Fatalf("Generating private key failed: %v", err)
+	}
+
+	msg := "Hello world"
+
+	// s value is the x component of the curve y^2 = x^3 - 3x + b
+	r, s, signmsg, err := signMessage(msg, privkey)
+	if err != nil {
+		log.Fatalf("Signed message error: %v", err)
+	}
+
+	status := verifyMessage(r, s, pubkey, signmsg)
+	fmt.Println(status) // true
+}
 
 func generateKey() (*ecdsa.PrivateKey, *ecdsa.PublicKey, error) {
 	privkey, err := ecdsa.GenerateKey(elliptic.P256(), rand.Reader)

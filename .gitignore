@@ -2,7 +2,7 @@
 .DS_Store
 
 # tenp folder
-/tmp
+tmp/
 
 # vs code
 .vscode
