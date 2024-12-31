@@ -34,3 +34,7 @@ The differences between these implementations are:
     * [Example 3 - Verify with wrong public key](../ec/stdlib/ex3/main.go)
     * [Example 4 - Encode private key in PEM](../ec/stdlib/ex4/main.go)
     * [Example 5 - Encode and encrypt private key in PEM](../ec/stdlib/ex5/main.go)
+
+* `secp256k1`
+    * [Example 1 - Using Geth crypto package to generate key and store as keystore file](../ec/secp/ex1/main.go)
+    * [Example 2 - Using X509 to serialised Geth crypto key to x509 PEM.](../ec/secp/ex2/main.go)
