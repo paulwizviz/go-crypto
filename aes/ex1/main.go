@@ -149,9 +149,9 @@ func generate512() {
 }
 
 func main() {
-	generate64()
+	generate64() // error
 	generate128()
 	generate192()
 	generate256()
-	generate512()
+	generate512() // error
 }
